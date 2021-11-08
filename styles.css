@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Mono', monospace;
+
+}
+.showcase{
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  z-index: 5;
+}
+ .showcase video{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+ .text{
+  position: sticky;
+  z-index: 10;
+}
+ .text h1{
+  font-size: 8em;
+  font-weight: 800;
+  color: #00ff6a;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+ .text h2{
+  font-size: 6em;
+  font-weight: 800;
+  color: #00ff6a;
+  line-height: 1em;
+  text-transform: capitalize;
+}
+ .text h3{
+  font-size: 11em;
+  font-weight: 1000;
+  color: #00ff6a;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
